@@ -13,7 +13,7 @@
 #import "DrawerTableViewController.h"
 #import "GCDQueue.h"
 #import "HomeViewController.h"
-#import "JVFloatingDrawerView.h"
+#import "JVFloatingDrawerViewController+ToDo.h"
 #import "LoginViewController.h"
 #import "Masonry.h"
 #import "SGSyncManager.h"

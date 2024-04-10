@@ -81,11 +81,11 @@ PODS:
   - Qiniu (7.0.20):
     - AFNetworking (~> 2.0)
     - HappyDNS (~> 0.3)
-  - RealReachability (1.1.8):
-    - RealReachability/Connection (= 1.1.8)
-    - RealReachability/Ping (= 1.1.8)
-  - RealReachability/Connection (1.1.8)
-  - RealReachability/Ping (1.1.8)
+  - RealReachability (1.1.9):
+    - RealReachability/Connection (= 1.1.9)
+    - RealReachability/Ping (= 1.1.9)
+  - RealReachability/Connection (1.1.9)
+  - RealReachability/Ping (1.1.9)
   - RTRootNavigationController (0.5.22)
   - SDAutoLayout (2.1.7)
   - SDWebImage (3.8.2):
@@ -106,7 +106,7 @@ DEPENDENCIES:
   - AMapLocation (~> 2.1.0)
   - AMapSearch (~> 4.3.0)
   - AutoLinearLayoutView
-  - AVOSCloud (~> 3.2.9)
+  - AVOSCloud (from `./AVOSCloud/AVOSCloud.podspec`)
   - BEMCheckBox
   - CocoaLumberjack
   - DGActivityIndicatorView
@@ -130,7 +130,7 @@ DEPENDENCIES:
   - MXSegmentedPager (from `https://github.com/Seanwong933/MXSegmentedPager`)
   - NetworkEye
   - Qiniu
-  - RealReachability
+  - RealReachability (= 1.1.9)
   - RTRootNavigationController
   - SDAutoLayout
   - SDWebImage
@@ -139,7 +139,53 @@ DEPENDENCIES:
   - TZImagePickerController
   - ZFDragableModalTransition
 
+SPEC REPOS:
+  trunk:
+    - ACEExpandableTextCell
+    - AFNetworking
+    - AFNetworking-Synchronous
+    - AMap2DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - AutoLinearLayoutView
+    - BEMCheckBox
+    - CocoaLumberjack
+    - DACircularProgress
+    - DGActivityIndicatorView
+    - EMString
+    - FDFullscreenPopGesture
+    - GTMBase64
+    - HappyDNS
+    - IDMPhotoBrowser
+    - IGLDropDownMenu
+    - JMRoundedCorner
+    - JSONModel
+    - JVFloatingDrawer
+    - LCActionSheet
+    - MagicalRecord
+    - Masonry
+    - MBProgressHUD
+    - MGSwipeTableCell
+    - MJExtension
+    - MXPagerView
+    - MXParallaxHeader
+    - NetworkEye
+    - pop
+    - Qiniu
+    - RealReachability
+    - RTRootNavigationController
+    - SDAutoLayout
+    - SDWebImage
+    - SZTextView
+    - TOWebViewController
+    - TPKeyboardAvoiding
+    - TZImagePickerController
+    - ZFDragableModalTransition
+
 EXTERNAL SOURCES:
+  AVOSCloud:
+    :path: "./AVOSCloud/AVOSCloud.podspec"
   FSCalendar:
     :git: https://github.com/Seanwong933/FSCalendar.git
   HMSegmentedControl:
@@ -160,14 +206,14 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ACEExpandableTextCell: 02c1fdb5a57344f543c9536c8c985ffcca1ed8b2
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking: a926f9357e3bc39d2c49c547e8e8dc90b36259b6
   AFNetworking-Synchronous: 29531ad341ec465a4ff9b66dea9cf7272080e12e
   AMap2DMap: f3f0fc5cdbf0242ff22da0c8605f24f8d7187b35
   AMapFoundation: 843dc27b2c02bc0bc2ef3346bb3dd0456cf64dbb
   AMapLocation: dd203f76b034ef5cb546600f4e1ffad2a3a14072
   AMapSearch: c90cc018a6c5281af17af6058ca99218a4d4b442
   AutoLinearLayoutView: b4da48a230fcbe03c38e3fd01f435d830071c49b
-  AVOSCloud: fcbb5c2bcccaddbdea8c2b4f6c1ad7f13e6639fe
+  AVOSCloud: 4a7437b0afbda5466500b7dd568e7513fac75d8c
   BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
@@ -195,7 +241,7 @@ SPEC CHECKSUMS:
   NetworkEye: 54afcde161ab50e407445b86abd7350f3cd08533
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   Qiniu: 8958e70c02fb563c8c04d555bb5041441c5f4216
-  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  RealReachability: a8c483900986a0f3305733961effbfbb00637a02
   RTRootNavigationController: cf134c044a8ce14d97fc668847ed4567efc53f91
   SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
@@ -205,6 +251,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
   ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
 
-PODFILE CHECKSUM: fd9684e4fd9500d134cb785462ee0f9f25034ad6
+PODFILE CHECKSUM: 1910ad5d31feb462a19eeafa7d61d696222e080e
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.13.0

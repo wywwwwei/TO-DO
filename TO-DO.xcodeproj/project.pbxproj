@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85A565352BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A565342BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.m */; };
 		8A80814723BDF84A9866A1C1 /* libPods-TO-DO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 874BB13DFF8BBE53341474BC /* libPods-TO-DO.a */; };
 		F1F6A01A071FC81615789AA5 /* SGDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A54104EA3D8B8904206E /* SGDelegateProxy.m */; };
 		F1F6A01B884B904F531B9DD7 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A6773FAC505BFA23DF13 /* DetailTableViewCell.m */; };
@@ -37,7 +38,6 @@
 		F1F6A995B9500630FFE1224A /* UISearchBar+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A9D468A191BF68F98F49 /* UISearchBar+Additions.m */; };
 		F1F6A9DC57DDEEA117827980 /* LicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A025312B7D80A459C649 /* LicenseViewController.m */; };
 		F1F6AB0A7F5E488863B32B68 /* DZMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A9550E33224A65936D5A /* DZMInputView.m */; };
-		F1F6ABC674B394F958DDD2F3 /* RegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6AA10AAAAC4D2E58CB1F0 /* RegisterTests.m */; };
 		F1F6ABC8867D2715DBB1F9A4 /* UIViewController+SGConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A246492749D8DFE4B5F2 /* UIViewController+SGConfigure.m */; };
 		F1F6ABDEC44B05F78957F228 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6A5DD853CC840086CAEA3 /* SettingTableViewController.m */; };
 		F1F6AC193A86F1A9ECBA3612 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F6AA85E1C29172F37A3439 /* UIView+Extension.m */; };
@@ -165,6 +165,8 @@
 /* Begin PBXFileReference section */
 		36E2DF670BBA7C56A7B0B215 /* Pods-TO-DO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TO-DO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TO-DO/Pods-TO-DO.release.xcconfig"; sourceTree = "<group>"; };
 		82F62EB9CE69A5ADAEC271F2 /* Pods-TO-DO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TO-DO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TO-DO/Pods-TO-DO.debug.xcconfig"; sourceTree = "<group>"; };
+		85A565332BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVFloatingDrawerViewController+ToDo.h"; sourceTree = "<group>"; };
+		85A565342BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JVFloatingDrawerViewController+ToDo.m"; sourceTree = "<group>"; };
 		874BB13DFF8BBE53341474BC /* libPods-TO-DO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TO-DO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F6A025312B7D80A459C649 /* LicenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicenseViewController.m; sourceTree = "<group>"; };
 		F1F6A11909DD478CD9D5372B /* SGSegmentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSegmentedController.h; sourceTree = "<group>"; };
@@ -699,6 +701,8 @@
 			children = (
 				F94388601CF5C38500E44379 /* DrawerTableViewController.h */,
 				F94388611CF5C38500E44379 /* DrawerTableViewController.m */,
+				85A565332BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.h */,
+				85A565342BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1505,6 +1509,7 @@
 				F98DE68C1CFDCE6B00859A81 /* TodoTableViewController.m in Sources */,
 				F9C1A2CF1D06858E000F96AF /* SyncErrorHandler.m in Sources */,
 				F9773EAD1CFECD7400469A0E /* TO_DO.xcdatamodeld in Sources */,
+				85A565352BC72F5E00947051 /* JVFloatingDrawerViewController+ToDo.m in Sources */,
 				F9964A991D02CD2F008387E5 /* LCSyncRecord.m in Sources */,
 				F94F2F371CF2D71200128A3A /* TodoTableViewCell.m in Sources */,
 				F9B3DD1A1CFFE5BE000A8B28 /* LCSync.m in Sources */,
@@ -1596,7 +1601,6 @@
 				F1F6A0B374F3C2CC9DC0E33F /* SGWebViewController.m in Sources */,
 				F1F6A9DC57DDEEA117827980 /* LicenseViewController.m in Sources */,
 				F1F6AC398FEDC54D03BE9F30 /* AcknowledgementViewController.m in Sources */,
-				F1F6ABC674B394F958DDD2F3 /* RegisterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1767,7 +1771,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TO-DO/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "TO-DO/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.siegrain.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1791,7 +1795,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TO-DO/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "TO-DO/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.siegrain.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
