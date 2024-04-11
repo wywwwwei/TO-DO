@@ -1,7 +1,32 @@
-
 # TO-DO
 
+### How to run
+
+- Install rvm (ruby version manager) and install ruby by rvm
+
+  [RVM: Ruby Version Manager - Installing RVM](https://rvm.io/rvm/install)
+
+  [Mac安装RVM - 掘金 (juejin.cn)](https://juejin.cn/post/7067845821290676232)
+
+- Install Cocoapods (Dependency Manager)
+
+  [CocoaPods.org](https://cocoapods.org/)
+
+  [CocoaPods 安装教程(Homebrew) 2023 - 掘金 (juejin.cn)](https://juejin.cn/post/7199540426242605112)
+
+- open terminal in the project root directory ( $your_path/To-Do/ )
+
+  ```shell
+  pod install
+  open TO-DO.xcworkspace 
+  ```
+
+
+
+
+
 ## 简介
+
 1. 这是一个无后端的待办事项应用，数据用LeanCloud进行同步，也是我的第三个 iOS 项目。
 2. 做这个项目的初衷是想比较全面地体现我的前后端水平，该同步算法从整理思路到实现95%的代码（意为接近稳定）花了两周时间，除思路外没有任何代码可以参考（反正我是没有找到...
 3. 界面设计来源于 [DO](https://www.invisionapp.com/do) ，部分素材和界面为本人设计。
