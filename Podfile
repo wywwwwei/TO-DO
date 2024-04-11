@@ -51,4 +51,15 @@ post_install do |installer|
                 end
            end
     end
+    installer.pods_project.targets.each do |target|
+      if target.name == "Pods-TO-DO”
+          puts "Updating #{target.name} OTHER_LDFLAGS"
+          target.build_configurations.each do |config|
+              xcconfig_path = config.base_configuration_reference.real_path
+              xcconfig = File.read(xcconfig_path)
+              new_xcconfig = xcconfig.gsub('-l"stdc++.6.0.9" ', '')
+              File.open(xcconfig_path, "w") { |file| file << new_xcconfig }
+          end
+      end
+  end
  end
