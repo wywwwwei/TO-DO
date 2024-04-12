@@ -21,6 +21,12 @@
   open TO-DO.xcworkspace 
   ```
 
+- select proper Rosseta simulator
+
+  Product -> Destination -> Destination Architecture -> Show Rosseta Destinations
+
+
+
 
 
 
